@@ -1,0 +1,43 @@
+{
+  "name": "quasar-project",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "Krtucho <krtucho98@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "0.27.2",
+    "connect-history-api-fallback": "2.0.0",
+    "core-js": "3.23.5",
+    "express": "^4.0.0",
+    "quasar": "2.7.5",
+    "serve-static": "1.15.0",
+    "vue": "3.2.37",
+    "vue-router": "4.1.2",
+    "vuex": "4.0.2",
+    "compression": "^1.0.0",
+    "@quasar/ssr-helpers": "2.2.0",
+    "@quasar/babel-preset-app": "2.0.1"
+  },
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "quasar": {
+    "ssr": true
+  }
+}
