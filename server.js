@@ -16,6 +16,6 @@ app.use(history())
 app.use(serveStatic(__dirname + '/dist/spa'))
 app.get('/*', function(req,res) {
     //res.sendFile(path.join(__dirname+'/dist/spa/index.html'));
-    res.sendFile(path.join(__dirname, 'dist/spa', 'index.html'));
+    res.sendFile(path.join(__dirname, 'dist/quasar-app', 'index.html'));
 });
 app.listen(port);
