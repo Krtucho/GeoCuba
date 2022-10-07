@@ -44,7 +44,11 @@
                   <input class="row q-mb-md" placeholder="nombre de usuario">
 
                   <div class="row justify-end">
-                    <q-btn push round color="primary" icon="card_giftcard" />
+                       <q-btn push round color="primary" class="forward_btn" icon="arrow_forward" />
+
+                    <!-- <q-btn push round color="primary" class="foraward_btn">
+                    <q-icon name="arrow_forward"></q-icon> -->
+                  <!-- </q-btn> -->
                   </div>
                 </div>
                 
@@ -59,7 +63,8 @@
                   <input class="row q-mb-md" placeholder="cargo">
 
                   <div class="row justify-end">
-                    <q-btn push round color="primary" icon="card_giftcard" />
+                    <q-btn push round color="primary" icon="arrow_forward" />
+
                   </div>
                 </div>
               </q-tab-panel>
@@ -263,4 +268,16 @@ input
 
 .bg-panel
   background-color: #F7F7F7
+
+.foraward_btn
+  font-weight: bold !important
+
+i
+  font-weight: bold !important
+
+q-btn
+  font-weight: bold !important
+
+// .material-symbols-outlined
+//   font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 48
 </style>
