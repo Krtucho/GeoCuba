@@ -1,17 +1,23 @@
 <template>
-<div class="q-pa-md">
-<div class=" row ">
-<q-input class="col-xs-12 col-sm-6 col-md-3" label="nombre"></q-input>
-</div>
-
-</div>
-
+  <!-- <q-page class="flex flex-center"> -->
+    <!-- <img
+      alt="Quasar logo"
+      src="~assets/quasar-logo-vertical.svg"
+      style="width: 200px; height: 200px"
+    > -->
+    <Bar/>
+  <!-- </q-page> -->
 </template>
 
 <script>
 import { defineComponent } from 'vue'
+import Bar from 'components/Bar.vue'
 
 export default defineComponent({
-  name: 'IndexPage'
+  name: 'IndexPage',
+
+  components: {
+    Bar
+  },
 })
 </script>

@@ -17,9 +17,9 @@
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
-    </q-header>
+    </q-header>-->
 
-    <q-drawer
+    <!-- <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
       bordered
@@ -101,16 +101,16 @@ export default defineComponent({
   //   EssentialLink
   // },
 
-  // setup () {
-  //   const leftDrawerOpen = ref(false)
+  setup () {
+    const leftDrawerOpen = ref(false)
 
-  //   return {
-  //     essentialLinks: linksList,
-  //     leftDrawerOpen,
-  //     toggleLeftDrawer () {
-  //       leftDrawerOpen.value = !leftDrawerOpen.value
-  //     }
-  //   }
-  // }
+    return {
+      essentialLinks: linksList,
+      leftDrawerOpen,
+      toggleLeftDrawer () {
+        leftDrawerOpen.value = !leftDrawerOpen.value
+      }
+    }
+  }
 })
 </script>
