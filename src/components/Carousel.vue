@@ -7,58 +7,324 @@
         transition-next="jump-left"
         animated
         control-color="blue"
-        navigation
         padding
+        infinite
+        :autoplay="5000"
         prev-icon="arrow_left"
         next-icon="arrow_right"
         arrows
         height="300px"
-        class="text-white shadow-1 rounded-borders"
+        class="text-white rounded-borders"
+        @mouseenter="autoplay = false"
+        @mouseleave="autoplay = true"
       >
-    <q-carousel-slide name="style" class="column no-wrap flex-center">
+<q-carousel-slide name="1" class="row no-wrap flex-center">
+  <q-card class="card_bg q-mx-md">
+        <q-img class="col-5 picture_space_main" src="~assets/img/photo_2022-08-03_10-17-46.jpg" />
+    </q-card>
 
 
-      <q-card class="my-card"  style="width: 70%">
-       <q-card-section horizontal>
-        <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax1.jpg" />
+  <q-card class="card_bg q-mx-md">
+    <q-card-section horizontal class="picture_space">
+
+      <q-img class="col-5" src="~assets/img/photo_2022-08-03_10-18-20.jpg" />
+
+      <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+          <p style="color:black; text-overflow: ellipsis;">La Unidad Científico Técnica GEOCUBA Investigación y Consultoría constituye el soporte científico metodológico del Grupo Empresarial GEOCUBA, creado para realizar los proyectos de investigación y desarrollo cientí­fico técnico y ...</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+
+    </q-card-section>
+  </q-card>
+
+
+        </q-carousel-slide>
+
+    <q-carousel-slide name="2" class="row no-wrap flex-center">
+       <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
 
         <q-card-section>
-          {{ lorem }}
-        </q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+
+    </q-card-section>
+    </q-card>
+
+      <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+          <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
       </q-card-section>
     </q-card>
 
-    <q-card class="my-card"  style="width: 70%">
-       <q-card-section horizontal>
-        <q-img class="col-5" src="https://cdn.quasar.dev/img/parallax1.jpg" />
+        </q-carousel-slide>
 
-        <q-card-section>
-          {{ lorem }}
-        </q-card-section>
+    <q-carousel-slide name="3" class="row no-wrap flex-center">
+       <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+          <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+      <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+         <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
       </q-card-section>
     </q-card>
 
         </q-carousel-slide>
 
-        
-        <q-carousel-slide name="tv" class="column no-wrap flex-center">
-          <q-icon name="live_tv" size="56px" />
-          <div class="q-mt-md text-center">
-            {{ lorem }}
-          </div>
+
+
+    <q-carousel-slide name="4" class="row no-wrap flex-center">
+       <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+          <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+      <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+           <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
         </q-carousel-slide>
-        <q-carousel-slide name="layers" class="column no-wrap flex-center">
-          <q-icon name="layers" size="56px" />
-          <div class="q-mt-md text-center">
-            {{ lorem }}
-          </div>
+
+
+    <q-carousel-slide name="5" class="row no-wrap flex-center">
+       <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+          <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+      <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+       <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
         </q-carousel-slide>
-        <q-carousel-slide name="map" class="column no-wrap flex-center">
-          <q-icon name="terrain" size="56px" />
-          <div class="q-mt-md text-center">
-            {{ lorem }}
-          </div>
+
+
+    <q-carousel-slide name="6" class="row no-wrap flex-center">
+       <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+         <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+      <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+     <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
         </q-carousel-slide>
+
+          <q-carousel-slide name="7" class="row no-wrap flex-center">
+       <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+         <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+      <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+     <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+        </q-carousel-slide>
+
+          <q-carousel-slide name="8" class="row no-wrap flex-center">
+       <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+         <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+      <q-card class="card_bg q-mx-md">
+       <q-card-section horizontal class="picture_space">
+        <q-img class="col-5" src="~assets/img/Geo.png" />
+
+     <q-card-section>
+        <div style="height:80%;  text-overflow: ellipsis;">
+         <p style="color:black">{{ lorem }}</p>
+        </div>
+
+        <q-separator />
+
+        <q-card-actions>
+           <q-btn flat><a href="#"> Ver más >></a></q-btn>
+        </q-card-actions>
+      </q-card-section>
+      </q-card-section>
+    </q-card>
+
+        </q-carousel-slide>
+
       </q-carousel>
 
     </div>
@@ -71,30 +337,9 @@ import { defineComponent } from 'vue'
 import { ref } from 'vue'
 export default defineComponent({
   name: 'CarouselComponent',
-  //props: {
-  //  title: {
-  //    type: String,
-  //    required: true
-  //  },
-//
-  //  caption: {
-  //    type: String,
-  //    default: ''
-  //  },
-//
-  //  link: {
-  //    type: String,
-  //    default: '#'
-  //  },
-//
-  //  icon: {
-  //    type: String,
-  //    default: ''
-  //  }
-  //}
   setup () {
     return {
-      slide: ref('style'),
+      slide: ref('1'),
       lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
   }
@@ -117,22 +362,22 @@ export default defineComponent({
   border-style : Solid;
   border-color : #1E90FF;
   border-color : rgba(30, 144, 255, 1);
-  border-width : 5px;
+  border-width : 4px;
   width : 451px;
-  height : 290px;
-  border-radius : 49px 0px 52px 0px;
-  -moz-border-radius : 49px 0px 52px 0px;
-  -webkit-border-radius : 49px 0px 52px 0px;
+  height : 95%;
+  -webkit-border-radius : 50px 0px 50px 0px;
 }
 
 .picture_space
 {
-  background : #999999;
-  background : rgba(153, 153, 153, 1);
-  width : 178px;
-  height : 178px;
-  border-radius : 48px 0px 0px 0px;
-  -moz-border-radius : 48px 0px 0px 0px;
-  -webkit-border-radius : 48px 0px 0px 0px;
+  width : 100%;
+  height : 100%;
+  -webkit-border-radius : 40px 0px 0px 0px;
+}
+.picture_space_main
+{
+  width : 100%;
+  height : 100%;
+  -webkit-border-radius : 40px 0px 40px 0px;
 }
   </style>
