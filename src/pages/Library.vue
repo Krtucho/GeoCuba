@@ -5,7 +5,7 @@
   </div>
 
   </div> -->
- <img src="~assets/img/photo_2022-09-16_11-53-08.jpg" class="img-background">
+ <img src="~assets/img/photo_2022-07-28_22-00-40.jpg" class="img-background">
 
   <q-header elevated>
       <q-toolbar>
@@ -30,124 +30,32 @@
       v-model="leftDrawerOpen"
       show-if-above
       bordered
-      style="background-color: #43AAFF;"
     >
-      <!-- <q-list> -->
-        <!-- <q-item-label
+      <q-list>
+        <q-item-label
           header
         >
           Essential Links
-        </q-item-label> -->
+        </q-item-label>
 
         <EssentialLink
-          v-for="link in simpleList"
-          :key="link.label"
+          v-for="link in essentialLinks"
+          :key="link.title"
           v-bind="link"
-          
         />
-      <!-- </q-list> -->
+      </q-list>
     </q-drawer>
  
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue';
-import EssentialLink from 'components/EssentialLink.vue';
-
-const simple = [
-        {
-          label: 'Fuentes Bibliograficas (with avatar)',
-          avatar: 'https://cdn.quasar.dev/img/boy-avatar.png',
-          children: [
-            {
-              label: 'Good food (with icon)',
-              icon: 'restaurant_menu'//,
-              // children: [
-              //   { label: 'Quality ingredients' },
-              //   { label: 'Good recipe' }
-              // ]
-            },
-            {
-              label: 'Good service (disabled node with icon)',
-              icon: 'room_service',
-              disabled: true,
-              children: [
-                { label: 'Prompt attention' },
-                { label: 'Professional waiter' }
-              ]
-            },
-            {
-              label: 'Pleasant surroundings (with icon)',
-              icon: 'photo',
-              children: [
-                {
-                  label: 'Happy atmosphere (with image)',
-                  img: 'https://cdn.quasar.dev/img/logo_calendar_128px.png'
-                },
-                { label: 'Good table presentation' },
-                { label: 'Pleasing decor' }
-              ]
-            }
-          ],
-          expanded: [ 'Satisfied customers (with avatar)', 'Good food (with icon)' ],
-        }
-      ]
-
-const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'chevron_right',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'chevron_right',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chevron_right',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'chevron_right',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'chevron_right',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'chevron_right',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'chevron_right',
-    link: 'https://awesome.quasar.dev'
-  }
-]
+import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
   name: "LibraryPage",
 
-  components: {
-    EssentialLink
-  },
   setup () {
     return {
-      // essentialLinks: linksList,
-      simpleList: simple,
       lorem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       isInput: true,
       tab: ref('mails')
@@ -253,8 +161,4 @@ input
 
 .bg-panel
   background-color: #F7F7F7
-
-.vertical-nav-bar
-  background-color: primary !important
-
 </style>

@@ -21,7 +21,12 @@ const routes = [{
                 path: 'library',
                 component: () =>
                     import ('pages/Library.vue')
-            }
+            },
+            {
+              path: 'carousel',
+              component: () =>
+                  import ('pages/IndexPagecopy.vue')
+          }
         ]
     },
 
