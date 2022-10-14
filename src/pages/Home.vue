@@ -19,6 +19,10 @@
       <p>Holaaaa</p>
     </q-card>
   </div>
+  <Carousel/>
+  
+  <MyFooter class="q-px-none" style="width: 100%;"/>
+    
 
 
 </template>
@@ -34,12 +38,16 @@
 <script>
   import { defineComponent } from 'vue'
   import Bar from 'components/Bar.vue'
+  import Carousel from 'components/Carousel.vue'
+  import MyFooter from 'src/components/MyFooter.vue'
 
   export default defineComponent({
     name: 'HomeComponent',
 
     components: {
-      Bar
+      Bar,
+      Carousel,
+      MyFooter
     },
 
   })
