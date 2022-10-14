@@ -1,36 +1,51 @@
 <template>
-  <q-toolbar-title>
-  <div>
+  <q-toolbar-title class="style_bar">
 
-    <q-bar class="style_bar_text1">
-      <img
-      alt="Geocuba logo"
-      src="~assets/Geocuba.png"
-      style="width: 60px; height: 50px"
-      >
-      <div class="style_bar_text2">
-        <p>Centro de Información y Superación Científico Tecnológica</p>
-      </div>
-      <q-space/>
-      <q-btn flat size="30px" class="style_bar_text3">INICIO </q-btn>
-      <q-btn flat size="30px" class="style_bar_text3">EMPRESA</q-btn>
-      <q-btn flat size="30px" class="style_bar_text3">QUIENES SOMOS</q-btn>
-      <div>
-        <q-input class="style_navbar" label-color="blue" bg-color="white" rounded outlined label="Buscar">
-          <template  v-slot:append>
-            <q-icon color="blue" name="search"/>
-          </template>
-          <!-- <q-btn flat round dense icon="search"/> -->
-          <!-- <q-btn flat round dense icon="search"></q-btn> -->
-        </q-input>
-      </div>
-      <div>
-      <q-btn flat class="style_bar_text4">Entrar</q-btn>
-      </div>
+    <q-bar class="row style_bar_text1">
+      <!-- <div class="row style_bar_text1"> -->
+        <div class="col-6 col-sm-12 col-md-6 justify-between">
+          <div class="row">
+            <img
+            class="col-3 col-sm-5 col-md-4"
+            alt="Geocuba logo"
+            src="~assets/images/Geocuba.png"
+            style="width: 4em; height: 4em">
 
-
+            <div class="col-11 col-sm-12 col-md-8 style_bar_text2 justify-center">
+              <div class="row">
+                  <p class="col-12 col-sm-12 col-md-12" style="margin: 0 0 0px;">Centro de Información y</p>
+                  <p class="col-12 col-sm-12 col-md-12" style="margin: 0 0 0px;">Superación Científico Tecnológica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 justify-between">
+          <div class="row">
+            <div class="col-7 col-sm-12 col-md-7">
+              <q-btn class="col-4 col-sm-12 col-md-12 style_bar_text3" flat size="1.8em" >INICIO </q-btn>
+              <q-btn class="col-4 col-sm-12 col-md-12 style_bar_text3" flat size="1.8em" >EMPRESA</q-btn>
+              <q-btn class="col-4 col-sm-12 col-md-12 style_bar_text3" flat size="1.8em" >QUIENES SOMOS</q-btn>
+            </div>
+            <div class="col-5 col-sm-12 col-md-5" style="margin-top: 0.5em;">
+              <div class="row justify-between">
+                <div class="col-6 col-sm-12 col-md-6 justify-center">
+                  <q-input  label-color="blue" bg-color="white" rounded outlined label="Buscar">
+                    <template  v-slot:append>
+                      <q-icon color="blue" name="search"/>
+                    </template>
+                    <!-- <q-btn flat round dense icon="search"/> -->
+                    <!-- <q-btn flat round dense icon="search"></q-btn> -->
+                  </q-input>
+                </div>
+                <div class="items-center" style="margin-top: 3%; margin-right: 15%;">
+                  <q-btn flat class="col-6 col-sm-12 col-md-6 style_bar_text4">Entrar</q-btn>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
     </q-bar>
-  </div>
 </q-toolbar-title>
 
   <!-- <q-item
@@ -83,23 +98,31 @@ export default defineComponent({
 </script>
 
 <style scoped>
+  .style_bar
+  {
+    padding: 0%;
+  }
   .style_bar_text1
   {
     background : #367fe6;
-    height : 75px;
+    height : 100%;
     width: 100%;
+    margin: 0 0 0px;
+    padding: 0 0px;
   }
 
   .style_bar_text2
   {
     font-family: Times New Roman;
     color:white;
-    max-width: 2px;
-    font-size : 25px;
+    font-size : 1.7em;
+	  margin: 0 0 0px;
+    margin-left: 1.5em;
   }
   .style_navbar
   {
     width: 150px;
+    margin: 0 0 0px;
 
   }
   .style_bar_text3
@@ -108,6 +131,7 @@ export default defineComponent({
     color:white;
     font-family : Berlin Sans FB Demi;
     height : 75px;
+    margin: 0 0 0px;
   }
   .style_bar_text4
   {
@@ -118,6 +142,8 @@ export default defineComponent({
     -webkit-border-radius : 5px;
     border-style : solid;
     border-width : 2px;
-    padding: 5px;
+    margin: 0 0 0px;
+    height: 20%;
+    /* padding: 5px; */
   }
 </style>
