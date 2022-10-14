@@ -5,7 +5,7 @@ const routes = [{
         children: [{
                 path: '',
                 component: () =>
-                    import ('pages/Login.vue')
+                    import ('pages/Home.vue')
             },
             {
                 path: 'login',
@@ -21,6 +21,11 @@ const routes = [{
                 path: 'library',
                 component: () =>
                     import ('pages/Library.vue')
+            },
+            {
+                path: 'home',
+                component: () =>
+                    import ('pages/Home.vue')
             }
         ]
     },
