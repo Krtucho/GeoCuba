@@ -1,7 +1,7 @@
 {
-  "name": "GeoCuba",
+  "name": "quasar-project",
   "version": "0.0.1",
-  "description": "Sitio Web de GeoCuba",
+  "description": "A Quasar Project",
   "author": "Krtucho <krtucho98@gmail.com>",
   "private": true,
   "scripts": {
@@ -9,15 +9,13 @@
   },
   "dependencies": {
     "axios": "0.27.2",
-    "connect-history-api-fallback": "2.0.0",
     "core-js": "3.23.5",
-    "express": "^4.0.0",
     "quasar": "2.7.5",
-    "serve-static": "1.15.0",
     "vue": "3.2.37",
     "vue-router": "4.1.2",
     "vuex": "4.0.2",
     "compression": "^1.0.0",
+    "express": "^4.0.0",
     "@quasar/ssr-helpers": "2.2.0",
     "@quasar/babel-preset-app": "2.0.1"
   },
