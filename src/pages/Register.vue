@@ -5,7 +5,7 @@
   </div>
 
   </div> -->
- <img src="~assets/img/dron-cielo-vuelo_253.jpg" class="img-background">
+ <img src="assets/img/dron-cielo-vuelo_253.jpg" class="img-background">
 
  <div class="my-div row absolute-center">
    <q-card class="registrate-card row justify-center">
@@ -47,7 +47,7 @@
                     <q-btn push round color="primary" icon="card_giftcard" />
                   </div>
                 </div>
-                
+
 
               </q-tab-panel>
 
@@ -117,10 +117,10 @@
     </q-card-section>
       <!--<q-card-section>
         <q-input :input-class="{ 'register_input_bg': isInput }" use-input outlined v-model="text"  label="Outlined" />
-         <q-input :input-style="{  borderRadius : '12px'}" outlined v-model="text"  label="Outlined" /> 
+         <q-input :input-style="{  borderRadius : '12px'}" outlined v-model="text"  label="Outlined" />
         <div class="register_input_bg"></div>
       </q-card-section>-->
-    
+
       <!-- <q-card-section>
         <q-input standout  outlined v-model="text" label="nombre de usuario" />
         <input placeholder="nombre de usuario">
@@ -182,7 +182,7 @@ input
   -moz-border-radius: 12px
   -webkit-border-radius: 12px
 
-/* input::placeholder 
+/* input::placeholder
   color: red
   font-size: 1.2em
   font-style: italic */

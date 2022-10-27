@@ -26,7 +26,7 @@
   <q-card class="card_bg q-mx-md">
     <q-card-section horizontal class="picture_space">
 
-      <img class="col-5" src='source2' />
+      <img class="col-5" :src='source2' />
 
       <q-card-section>
         <div style="height:80%;  text-overflow: ellipsis;">

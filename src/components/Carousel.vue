@@ -20,14 +20,14 @@
       >
   <q-carousel-slide name="1" class="row no-wrap flex-center">
     <q-card class="card_bg q-mx-md">
-        <q-img class="col-5 picture_space_main" src="~assets/img/photo_2022-08-03_10-17-46.jpg" />
+        <q-img class="col-5 picture_space_main" src="assets/img/photo_2022-08-03_10-17-46.jpg" />
     </q-card>
 
 
     <q-card class="card_bg q-mx-md">
       <q-card-section horizontal class="picture_space">
 
-        <q-img class="col-5" src="~assets/img/photo_2022-08-03_10-18-20.jpg" />
+        <q-img class="col-5" src="assets/img/photo_2022-08-03_10-18-20.jpg" />
 
       <q-card-section>
         <div style="height:80%;  text-overflow: ellipsis;">
@@ -74,49 +74,49 @@ export default defineComponent({
       slides:[
   {
   source1:"http://localhost:8080/img/Geo.png",
-  source2:"~assets/img/Geo.png",
+  source2:"assets/img/Geo.png",
   text1:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   text2:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   name:'2'
   },
     {
-  source1:"~assets/img/Geo.png",
-  source2:"~assets/img/Geo.png",
+  source1:"assets/img/Geo.png",
+  source2:"assets/img/Geo.png",
   text1:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   text2:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   name:'3'
   },
     {
-  source1:"~assets/img/Geo.png",
-  source2:"~assets/img/Geo.png",
+  source1:"assets/img/Geo.png",
+  source2:"assets/img/Geo.png",
   text1:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   text2:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   name:'4'
   },
     {
-  source1:"~assets/img/Geo.png",
-  source2:"~assets/img/Geo.png",
+  source1:"assets/img/Geo.png",
+  source2:"assets/img/Geo.png",
   text1:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   text2:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   name:'5'
   },
   {
-  source1:"~assets/img/Geo.png",
-  source2:"~assets/img/Geo.png",
+  source1:"assets/img/Geo.png",
+  source2:"assets/img/Geo.png",
   text1:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   text2:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   name:'6'
   },
     {
-  source1:"~assets/img/Geo.png",
-  source2:"~assets/img/Geo.png",
+  source1:"assets/img/Geo.png",
+  source2:"assets/img/Geo.png",
   text1:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   text2:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   name:'7'
   },
     {
-  source1:"~assets/img/Geo.png",
-  source2:"~assets/img/Geo.png",
+  source1:"assets/img/Geo.png",
+  source2:"assets/img/Geo.png",
   text1:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   text2:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.',
   name:'8'

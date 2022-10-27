@@ -5,7 +5,7 @@
   </div>
 
   </div> -->
- <img src="~assets/img/photo_2022-07-28_22-00-40.jpg" class="img-background">
+ <img src="assets/img/photo_2022-07-28_22-00-40.jpg" class="img-background">
 
   <q-header elevated>
       <q-toolbar>
@@ -45,7 +45,7 @@
         />
       </q-list>
     </q-drawer>
- 
+
 </template>
 
 <script>
@@ -80,7 +80,7 @@ input
   -moz-border-radius: 12px
   -webkit-border-radius: 12px
 
-/* input::placeholder 
+/* input::placeholder
   color: red
   font-size: 1.2em
   font-style: italic */

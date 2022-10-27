@@ -7,8 +7,8 @@
     <div class="row"  style="height: 150px">
 
           <div class="col-5">
-            <img src="~assets/img/Geocuba.png" style="width: 30%;" class="q-pa-md q-pa-lg">
-            <img src="~assets/img/Geo.png" style="width: 40%;" class="q-pa-md q-pa-lg">
+            <img src="assets/img/Geocuba.png" style="width: 30%;" class="q-pa-md q-pa-lg">
+            <img src="assets/img/Geo.png" style="width: 40%;" class="q-pa-md q-pa-lg">
           </div>
 
           <div class="col">
