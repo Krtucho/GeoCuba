@@ -1,23 +1,75 @@
 <template>
   <Bar/>
 
-  <img src="~assets/photo_2022-08-01_07-52-17.jpg" class="img-background">
+  <img src="~assets/images/photo_2022-08-01_07-52-17.jpg" class="img-background">
 
   <div class="style_card">
+    <q-intersection
+    :key="index"
+    transition="slide-right"
+    >
+      <div class="row q-mb-lg justify-start ">
+          <q-card class="col-3 style_card_first_last rounded">
+            <div class="row">
+              <div class="col-3 col-sm-3 col-md-4 q-pa-md q-gutter-sm" style="width: 200px; height: 200px;" >
+                <img
+                alt="Geocuba logo"
+                src="~assets/images/Geocuba.png"
+                style="width:100%; height: 100%; object-fit: contain;">
+              </div>
+              <div class="col-8 cols-sm-8 col-md-8 q-pa-md q-gutter-sm" >
+                <p style="width: 100%; font-size:x-large; font-family: Times New Roman;
+                color:white;">Biblioteca Virtual de GEOMÁTICA </p>
+              </div>
+          </div>
+          </q-card>
+      </div>
+    </q-intersection>
+    <q-intersection
+    :key="index"
+    transition="slide-left"
+    >
+      <div class="row q-mb-lg justify-end">
+          <q-card class="col-3 style_card_medium rounded">
+            <div class="row">
+              <div class="col-3 col-sm-3 col-md-4 q-pa-md q-gutter-sm" style="width: 200px; height: 200px;" >
+                <img
+                alt="Geocuba logo"
+                src="~assets/images/Geocuba.png"
+                style="width:100%; height: 100%; object-fit: contain;">
+              </div>
+              <div class="col-8 cols-sm-8 col-md-8 q-pa-md q-gutter-sm" >
+                <p style="width: 100%; font-size:x-large; font-family: Times New Roman;
+                color:white;">Biblioteca Virtual de GEOMÁTICA </p>
+              </div>
+          </div>
+          </q-card>
+      </div>
+    </q-intersection>
+    <q-intersection
+    :key="index"
+    transition="slide-right"
+    >
+      <div class="row q-mb-lg justify-start">
+          <q-card class="col-3 style_card_first_last rounded">
+            <div class="row">
+              <div class="col-3 col-sm-3 col-md-4 q-pa-md q-gutter-sm" style="width: 200px; height: 200px;" >
+                <img
+                alt="Geocuba logo"
+                src="~assets/images/Geocuba.png"
+                style="width:100%; height: 100%; object-fit: contain;">
+              </div>
+              <div class="col-8 cols-sm-8 col-md-8 q-pa-md q-gutter-sm" >
+                <p style="width: 100%; font-size:x-large; font-family: Times New Roman;
+                color:white;">Biblioteca Virtual de GEOMÁTICA </p>
+              </div>
+          </div>
+          </q-card>
+      </div>
+    </q-intersection>
 
-    <transition appear>
-      <q-card size="25px" class="style_card_text1">
-        <q-btn>Hola</q-btn>
-      </q-card>
-    </transition>
 
 
-    <q-card class="style_card_text2">
-      <p>Holaaaa</p>
-    </q-card>
-    <q-card class="style_card_text3">
-      <p>Holaaaa</p>
-    </q-card>
   </div>
 
 
@@ -33,7 +85,7 @@
 
 <script>
   import { defineComponent } from 'vue'
-  import Bar from 'components/Bar.vue'
+  import Bar from 'src/components/Bar.vue'
 
   export default defineComponent({
     name: 'Pag1Component',
@@ -59,22 +111,28 @@
 
   }
 
-  .style_card_text1
+  .style_card_first_last
   {
-    height : 200px;
+    min-height : 250px;
     width: 55%;
     margin: 60px;
+    background : #1E90FF;
+    background : rgba(30, 144, 255, 1);
+    border-radius : 21px;
+    -moz-border-radius : 21px;
+    -webkit-border-radius : 21px;
   }
-  .style_card_text2
+
+  .style_card_medium
   {
-    height : 200px;
+    min-height : 250px;
     width: 55%;
     margin: 60px;
-  }
-  .style_card_text3
-  {
-    height : 200px;
-    width: 55%;
-    margin: 60px;
+    background : #116CEF;
+    background : rgba(17, 108, 239, 1);
+    border-radius : 21px;
+    -moz-border-radius : 21px;
+    -webkit-border-radius : 21px;
+
   }
 </style>
