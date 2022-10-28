@@ -15,8 +15,10 @@
           round
           icon="menu"
           aria-label="Menu"
-          @click="toggleLeftDrawer"
+          @click="leftDrawerOpen = !leftDrawerOpen"
         />
+
+        
 
         <q-toolbar-title>
           Quasar App
@@ -150,7 +152,11 @@ export default defineComponent({
       simpleList: simple,
       lorem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       isInput: true,
-      tab: ref('mails')
+      tab: ref('mails'),
+      leftDrawerOpen: ref(true),
+      toggleLeftDrawer () {
+        leftDrawerOpen.value = !leftDrawerOpen.value
+      }
     }
   }
 
