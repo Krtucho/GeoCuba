@@ -1,50 +1,54 @@
 <template>
   <q-toolbar-title class="style_bar">
 
-    <q-bar class="row style_bar_text1">
-      <!-- <div class="row style_bar_text1"> -->
-        <div class="col-6 col-sm-12 col-md-6 justify-between">
-          <div class="row">
-            <img
-            class="col-3 col-sm-5 col-md-4"
-            alt="Geocuba logo"
-            src="~assets/images/Geocuba.png"
-            style="width: 4em; height: 4em">
+    <q-bar class="style_bar_text1">
+      <div class="row justify-between" style="width:100%;">
+        <!-- <div class="row style_bar_text1"> -->
+          <div class="col-12 col-sm-12 col-md-6 justify-between">
+            <div class="row">
+              <img
+              class="col-3 col-sm-5 col-md-4"
+              alt="Geocuba logo"
+              src="~assets/images/Geocuba.png"
+              style="width: 4em; height: 4em">
 
-            <div class="col-11 col-sm-12 col-md-8 style_bar_text2 justify-center">
-              <div class="row">
-                  <p class="col-12 col-sm-12 col-md-12" style="margin: 0 0 0px;">Centro de Información y</p>
-                  <p class="col-12 col-sm-12 col-md-12" style="margin: 0 0 0px;">Superación Científico Tecnológica</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 justify-between">
-          <div class="row">
-            <div class="col-7 col-sm-12 col-md-7">
-              <q-btn class="col-4 col-sm-12 col-md-12 style_bar_text3" flat size="1.8em" >INICIO </q-btn>
-              <q-btn class="col-4 col-sm-12 col-md-12 style_bar_text3" flat size="1.8em" >EMPRESA</q-btn>
-              <q-btn class="col-4 col-sm-12 col-md-12 style_bar_text3" flat size="1.8em" >QUIENES SOMOS</q-btn>
-            </div>
-            <div class="col-5 col-sm-12 col-md-5" style="margin-top: 0.5em;">
-              <div class="row justify-between">
-                <div class="col-6 col-sm-12 col-md-6 justify-center">
-                  <q-input  label-color="blue" bg-color="white" rounded outlined label="Buscar">
-                    <template  v-slot:append>
-                      <q-icon color="blue" name="search"/>
-                    </template>
-                    <!-- <q-btn flat round dense icon="search"/> -->
-                    <!-- <q-btn flat round dense icon="search"></q-btn> -->
-                  </q-input>
-                </div>
-                <div class="items-center" style="margin-top: 3%; margin-right: 15%;">
-                  <q-btn flat class="col-6 col-sm-12 col-md-6 style_bar_text4">Entrar</q-btn>
+              <div class="col-11 col-sm-12 col-md-8 style_bar_text2 justify-center">
+                <div class="row">
+                    <p class="col-12 col-sm-12 col-md-12" style="margin: 0 0 0px;">Centro de Información y</p>
+                    <p class="col-12 col-sm-12 col-md-12" style="margin: 0 0 0px;">Superación Científico Tecnológica</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+          <div class="col-12 col-sm-12 col-md-6 justify-between">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-8">
+                <div class="row">
+                  <q-btn class="col-12 col-sm-4 col-md-3 style_bar_text3" flat size="1.8em" >INICIO </q-btn>
+                  <q-btn class="col-12 col-sm-4 col-md-3.5 style_bar_text3" flat size="1.8em" >EMPRESA</q-btn>
+                  <q-btn class="col-12 col-sm-4 col-md-4 style_bar_text3" flat size="1.8em" >QUIENES SOMOS</q-btn>
+                </div>
+              </div>
+              <div class="col-5 col-sm-6 col-md-4" style="margin-top: 0.5em;">
+                <div class="row justify-between">
+                  <div class="col-6 col-sm-6 col-md-6 justify-center">
+                    <q-input  label-color="blue" bg-color="white" rounded outlined label="Buscar">
+                      <template  v-slot:append>
+                        <q-icon color="blue" name="search"/>
+                      </template>
+                      <!-- <q-btn flat round dense icon="search"/> -->
+                      <!-- <q-btn flat round dense icon="search"></q-btn> -->
+                    </q-input>
+                  </div>
+                  <div class="col-6 col-sm-12 col-md-4 items-center" style="margin-top: 3%; margin-right: 5%;">
+                    <q-btn flat class=" style_bar_text4">Entrar</q-btn>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       <!-- </div> -->
+    </div>
     </q-bar>
 </q-toolbar-title>
 
@@ -131,7 +135,7 @@ export default defineComponent({
     color:white;
     font-family : Berlin Sans FB Demi;
     height : 75px;
-    margin: 0 0 0px;
+    /* margin: 0 0 0px; */
   }
   .style_bar_text4
   {
