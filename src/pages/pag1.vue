@@ -19,7 +19,7 @@
               </div>
               <div class="col-8 cols-sm-8 col-md-8 q-pa-md q-gutter-sm" >
                 <p style="width: 100%; font-size:x-large; font-family: Times New Roman;
-                color:white;">Biblioteca Virtual de GEOMÁTICA </p>
+                color:white;">BIBLIOTECA VIRTUAL DE GEOMÁTICA </p>
               </div>
           </div>
           </q-card>
@@ -31,17 +31,18 @@
     >
       <div class="row q-mb-lg justify-end">
           <q-card class="col-3 style_card_medium rounded">
-            <div class="row">
-              <div class="col-3 col-sm-3 col-md-4 q-pa-md q-gutter-sm" style="width: 200px; height: 200px;" >
+            <div class="row justify-end">
+              <div class="col-9 cols-sm-8 col-md-8 justify-end q-pa-md q-gutter-sm" >
+                <p style="width: 100%; text-align: end; font-size:x-large; font-family: Times New Roman;
+                color:white;">REVISTA CUBANA DE GEOMÁTICA </p>
+              </div>
+              <div class="col-3 col-sm-3 col-md-4 q-pa-md q-gutter-sm" style="width: 200px; height: 200px;  margin: 8px;" >
                 <img
                 alt="Geocuba logo"
                 src="~assets/images/Geocuba.png"
                 style="width:100%; height: 100%; object-fit: contain;">
               </div>
-              <div class="col-8 cols-sm-8 col-md-8 q-pa-md q-gutter-sm" >
-                <p style="width: 100%; font-size:x-large; font-family: Times New Roman;
-                color:white;">Biblioteca Virtual de GEOMÁTICA </p>
-              </div>
+
           </div>
           </q-card>
       </div>
@@ -61,7 +62,7 @@
               </div>
               <div class="col-8 cols-sm-8 col-md-8 q-pa-md q-gutter-sm" >
                 <p style="width: 100%; font-size:x-large; font-family: Times New Roman;
-                color:white;">Biblioteca Virtual de GEOMÁTICA </p>
+                color:white;">EVENTOS </p>
               </div>
           </div>
           </q-card>
@@ -105,10 +106,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover
-  }
-  .style_card
-  {
-
   }
 
   .style_card_first_last
